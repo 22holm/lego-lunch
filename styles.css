@@ -68,7 +68,7 @@ h3 {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   background-image: url('../src/assets/images/Midtown.svg');
+   background-image: url('./assets/images/Midtown.svg');
    height: 100%;
    width: 100%;
    background-repeat: no-repeat;
@@ -84,7 +84,7 @@ h3 {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   background-image: url('../src/assets/images/Campus.svg');
+   background-image: url('./assets/images/Campus.svg');
    height: 100%;
    width: 100%;
    background-repeat: no-repeat;
@@ -99,7 +99,7 @@ h3 {
    align-items: center;
    justify-content: center;
    height: 700px;
-   background-image: url('../src/assets/images/GIF.svg');
+   background-image: url('./assets/images/GIF.svg');
    background-repeat: no-repeat;
    background-size: 100%;
    filter: drop-shadow(0 10px 8px rgba(255, 35, 189, 0.322)) drop-shadow(0 4px 6px rgba(255, 36, 226, 0.582));
