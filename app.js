@@ -4,8 +4,7 @@ const iconArray = ['../src/assets/icons/hot.png', '../src/assets/icons/diet.png'
 // const appUrl = (process.env.NODE_ENV)
 
 async function getMidTownMenu() {   //consider using async/await instead of promises
-   fetch('http://localhost:3000/midtownMenu')   //
-      // fetch('https://legolunchboard.azurewebsites.net/midtownMenu')
+   fetch('https://lh-lunch-api.onrender.com/midtownmenu')   //
       .then(response => { return response.json() }) //return response.json()
       .then(data => {
          console.log(data);
@@ -27,8 +26,7 @@ async function getMidTownMenu() {   //consider using async/await instead of prom
 }
 
 async function getCampusMenu() {
-   fetch('http://localhost:3000/campusMenu')   //
-      // fetch('https://legolunchboard.azurewebsites.net/campusMenu')
+   fetch('https://lh-lunch-api.onrender.com/campusmenu')   //
       .then(response => { return response.json() })
       .then(data => {
          if (!data.length) {
