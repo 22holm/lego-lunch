@@ -6,27 +6,44 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="styles.css">
+   <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
    <title>LEGO Lunch Board</title>
 
    <script defer src="app.js"></script>
    <script defer src="giphy.js"></script>
 </head>
 
+<header>
+   <h1 id="heading">Hvor skal du spise frokost?</h1>
+</header>
+
 <body>
-   <h1 id="heading">Træf et oplyst frokostvalg!</h1>
-   <div id="menuAndGifContainer">
-      <div id="midtown">
-         <div id="midtown-frame-container"></div>
-      </div>
-      <div id="campus">
-         <div id="campus-frame-container"></div>
-      </div>
-      <div id="gif">
-         <div id="gif-box">
-            <div id="img-container"></div>
+   <!-- <section> -->
+   <div class="main-container">
+      <div class="menu-container h-camp-mid">
+         <div class="white-bg"></div>
+         <div class="menu-frame midtown">
+            <!-- menu-item -->
          </div>
       </div>
+      <div class="menu-container h-camp-mid">
+         <span class="white-bg"></span>
+         <div class="menu-frame campus">
+            <!-- menu-item -->
+         </div>
+      </div>
+      <div class="menu-container h-gif">
+         <span class="white-bg">
+            <div class="menu-frame gif">
+               <div id="img-container">
+                  <!-- gif-container -->
+               </div>
+            </div>
+         </span>
+      </div>
    </div>
+   <!-- </section> -->
 </body>
+
 
 </html>
