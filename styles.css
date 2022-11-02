@@ -136,8 +136,12 @@
 
    @media (min-width: 768px) {
 
-      p, h3 {
+      h3 {
          font-size: calc(0.5rem + 1vw);
+      }
+
+      p {
+         font-size: calc(0.3rem + 1vw);
       }
 
       .main-container {
@@ -162,8 +166,8 @@
       }
 
       img {
-         max-width: 170px;
-         /* max-height: 170px; */
+         max-width: 300px;
+         max-height: 300px;
       }
 
 
