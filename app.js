@@ -31,7 +31,7 @@ async function getCampusMenu() {
          if (!data.length) {
             console.log('There is no data!');
             if (campusContent.childElementCount < 1) {
-               const noMenuMsg = `<div class="menu-item no-menu"><h2>Intet på menuen i dag</h2></div>`
+               const noMenuMsg = `<div class="menu-item no-menu"><h2>Nothing on the menu today</h2></div>`
                campusContent.insertAdjacentHTML('beforeend', noMenuMsg);
             }
          } else {
