@@ -11,7 +11,7 @@ async function getMidTownMenu() {   //consider using async/await instead of prom
          if (!data.length) {
             console.log('There is no data!');
             if (midtownContent.childElementCount < 2) {
-               const noMenuMsg = `<div class="menu-item no-menu"><h2>Intet på menuen i dag</h2></div>`
+               const noMenuMsg = `<div class="menu-item no-menu"><h2>Nothing on the menu today</h2></div>`
                midtownContent.insertAdjacentHTML('beforeend', noMenuMsg);
             }
          } else {
