@@ -13,7 +13,7 @@
 
    #heading {
       text-align: center;
-      font-size: cera pro(3rem + 3.6vw);
+      font-size: calc(3rem + 3.6vw);
       color: #ffffff;
       filter: drop-shadow(3px 3px rgba(0, 0, 0, 0.226));
    }
