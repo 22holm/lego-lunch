@@ -25,7 +25,7 @@ async function getMidTownMenu() {   //consider using async/await instead of prom
 }
 
 async function getCampusMenu() {
-   fetch('https://lh-lunch-api.azurewebsites.net//campusmenu')   //
+   fetch('https://lh-lunch-api.azurewebsites.net/campusmenu')   //
       .then(response => { return response.json() })
       .then(data => {
          if (!data.length) {
